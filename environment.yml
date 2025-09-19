@@ -1,0 +1,21 @@
+name: AFmassive
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - biopython
+  - pip:
+    - alphafold
+    - jax
+    - jaxlib
+    - dm-haiku
+    - tensorflow
+    - requests
